@@ -123,7 +123,7 @@ function stateLooper(obj) {
     let values = obj[keys];
 
     if (values > 3000000) {
-      values = 0;
+      obj[keys] = 0;
     }
   }
   return obj;
