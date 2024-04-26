@@ -33,6 +33,7 @@ function personLocation() {
 const backpack = {};
 
 // Code Here
+backpack.frontPocket = "compass";
 
 /// ////////////// PROBLEM 4 ////////////////////
 
