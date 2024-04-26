@@ -119,12 +119,19 @@ const state = {
 
 function stateLooper(obj) {
   // REPLACE THIS WITH YOUR CODE
+  for (const keys in obj) {
+    let values = obj[keys];
+
+    if (values > 3000000) {
+      values = 0;
+    }
+  }
   return obj;
 }
 
 /// ////////////// PROBLEM 9 ////////////////////
 
-// Here is a function named cleanUser that will be passed an object
+// Here is a function named cleanUser that will be passed an objectno
 // Inside of this function, loop over the object so that every property with a falsy value is removed
 // Once all falsy values and their properties are removed, return the object
 
