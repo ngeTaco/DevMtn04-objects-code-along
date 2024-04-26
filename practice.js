@@ -23,7 +23,7 @@ function personLocation() {
     age: 29,
     location: 'Orem, UT',
   };
-  return; // Code Here
+  return person["location"]; // Code Here
 }
 
 /// ////////////// PROBLEM 3 ////////////////////
