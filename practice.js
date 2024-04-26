@@ -101,6 +101,10 @@ function maxedOut(obj) {
   return obj;
 }
 
+// fir (const properties in obj){
+//   obj[properties] = "newValue"
+// }
+
 /// ////////////// PROBLEM 8 ////////////////////
 
 // Do not edit the code below.
