@@ -184,6 +184,8 @@ const animalCount = {
 };
 // Do not edit the code above.
 
+const { cats, dogs, mice } = animalCount;
+
 // Use object destructuring syntax to create variables for each of the properties of the
 // animalCount object.
 
@@ -195,6 +197,10 @@ const animalCount = {
 // In the function, use array destructuring to create variables for each of the numbers.
 // Then return the sum of the two numbers.
 
+const numbs = [1 , 5];
+
+const [firstNumb, secondNumbs] = numbs
+
 // REPLACE THIS WITH YOUR CODE
 
 /// ////////////// PROBLEM 15 ////////////////////
@@ -203,6 +209,8 @@ const animalCount = {
 // The object passed to this function will have the property names lion, tiger, and bear
 // The values of these properties will be a number representing the count of that animal in the zoo
 // Using object destructuring, return the total sum of the counts of these animals
+
+const{lions, tigers, bears} = zooAnimals
 
 // REPLACE THIS WITH YOUR CODE
 
