@@ -137,6 +137,12 @@ function stateLooper(obj) {
 
 function cleanUser(obj) {
   // REPLACE THIS WITH YOUR CODE
+  for (const keys in obj) {
+    let value = obj[keys];
+    if (!value) {
+      delete obj[keys];
+    }
+  }
 
   return obj;
 }
