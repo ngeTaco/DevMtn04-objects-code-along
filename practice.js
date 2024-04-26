@@ -9,7 +9,7 @@ function personName() {
     age: 29,
     location: 'Orem, UT',
   };
-  return; // Code here
+  return person.firstName; // Code here
 }
 
 /// ////////////// PROBLEM 2 ////////////////////
