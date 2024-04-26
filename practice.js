@@ -44,6 +44,7 @@ const person = {};
 person['firstName'] = 'sally';
 
 // Code Here
+const userFirstName = person.firstName;
 
 /// ////////////// PROBLEM 5 ////////////////////
 
