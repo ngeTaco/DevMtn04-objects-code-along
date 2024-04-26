@@ -94,6 +94,9 @@ function updateProfile(profile, property, value) {
 
 function maxedOut(obj) {
   // REPLACE THIS WITH YOUR CODE
+  for (const keys in obj) {
+    obj[keys] = "max";
+  }
 
   return obj;
 }
