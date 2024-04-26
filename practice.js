@@ -82,6 +82,7 @@ function updateUser(user) {
 
 function updateProfile(profile, property, value) {
   // Code here
+  profile[property] = value;
   return profile;
 }
 
