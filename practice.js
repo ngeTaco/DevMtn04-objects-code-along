@@ -222,11 +222,11 @@ function addition(numb){
 // The values of these properties will be a number representing the count of that animal in the zoo
 // Using object destructuring, return the total sum of the counts of these animals
 
-const {lions, tigers, bears} = zooAnimals
+//{lions, tigers, bears} = zooAnimals
 
 // REPLACE THIS WITH YOUR CODE
 function zooAnimals(obj){
-  const { lion: 2, tiger: 4, bear: 6 } = obj;
+  const { lion, tiger, bear } = obj;
   return lion + tiger + bear;
 }
 
