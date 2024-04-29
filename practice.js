@@ -257,12 +257,16 @@ function zooAnimals(obj){
 // Title and name in this sentence should be replaced with the values of the
 // destructured object variables.
 
+// Actual Step 1: create object and destructure object???
 // Step 1: Create Function called Greeting
 // Step 2: Give destructured object as param
 // S2 Note: object properties are name and title
 // Step 3: return "Hello, <title> <name>!"
 
 // REPLACE THIS WITH YOUR CODE
+const fellow = { name: 'Watson', title: 'Dr.'};
+const { name, title } = greeting
+
 function greeting({ name, title }) {
-  
+  return 'Hello, ${title} ${name}!';
 }
