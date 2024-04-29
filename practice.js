@@ -204,11 +204,16 @@ const { cats, dogs, mice } = animalCount;
 // In the function, use array destructuring to create variables for each of the numbers.
 // Then return the sum of the two numbers.
 
-const numbs = [1 , 5];
+//const numbs = [1 , 5];
 
-const [firstNumb, secondNumbs] = numbs
+//const [firstNumb, secondNumbs] = numbs
 
 // REPLACE THIS WITH YOUR CODE
+function addition(numb){
+  const [firstNumb, secondNumb] = numb;
+  return firstNumb + secondNumb
+}
+
 
 /// ////////////// PROBLEM 15 ////////////////////
 
