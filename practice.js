@@ -176,6 +176,9 @@ function copyArray(arr) {
 
 function copyObject(obj) {
   // REPLACE THIS WITH YOUR CODE
+  const objectCopy = {...obj}
+  objectCopy.copy = true;
+  return objectCopy
 }
 
 /// ////////////// PROBLEM 13 ////////////////////
