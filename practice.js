@@ -165,8 +165,7 @@ function getValues(obj) {
 function copyArray(arr) {
   // REPLACE THIS WITH YOUR CODE
   const arrayCopy = [...arr];
-  arrayCopy.push('Copy');
-  console.log(arrayCopy);
+  arrayCopy.push('copy');
   return arrayCopy;
 }
 
