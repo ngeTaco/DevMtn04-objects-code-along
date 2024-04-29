@@ -154,6 +154,7 @@ function cleanUser(obj) {
 
 function getValues(obj) {
   // REPLACE THIS WITH YOUR CODE
+  return Object.values(obj);
 }
 
 /// ////////////// PROBLEM 11 ////////////////////
