@@ -257,4 +257,12 @@ function zooAnimals(obj){
 // Title and name in this sentence should be replaced with the values of the
 // destructured object variables.
 
+// Step 1: Create Function called Greeting
+// Step 2: Give destructured object as param
+// S2 Note: object properties are name and title
+// Step 3: return "Hello, <title> <name>!"
+
 // REPLACE THIS WITH YOUR CODE
+function greeting({ name, title }) {
+  
+}
