@@ -264,9 +264,9 @@ function zooAnimals(obj){
 // Step 3: return "Hello, <title> <name>!"
 
 // REPLACE THIS WITH YOUR CODE
-const fellow = { name: 'Watson', title: 'Dr.'};
-const { name, title } = greeting
+const fellow = { name: 'Watson', title: 'Dr.' };
+//const { name, title } = fellow;
 
 function greeting({ name, title }) {
-  return 'Hello, ${title} ${name}!';
+  return `Hello, ${title} ${name}!`;
 }
